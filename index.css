@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    width: 100%;
+}
+body, html{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+img{
+    vertical-align: bottom;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    width: 100%;
+}
+/* banner */
+main{
+    height: 400px;
+    background: url("https://opgg-com-image.akamaized.net/attach/images/20210513130330.1678865.jpg") center;
+}
+main .bg{
+    height: 400px;
+    display: block;
+    /* position: relative; */
+    background:rgba(6, 6, 5, 50%);
+    margin-bottom: -230px;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    /* padding-bottom: 2rem; */
+}
+.text h1{
+    /* font-size: 4rem; */
+    /* padding-top: 8rem; */
+}
+.text p{
+    font-size: 1.2rem;
+    color: #aaa;
+    line-height: 1;
+}
+
+section{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 1rem;
+}
+section img{
+    width: 100px;
+    height: 50px;
+    margin-left: 3rem;
+}
+section .imgtxt{
+    order: -1;
+    /* padding: 2rem; */
+}
+
+section a{
+    margin-top: 5rem;
+    justify-content: center;
+}
+.bt{
+    text-align: center;
+    display: block;
+    margin-top: -2rem;
+}
